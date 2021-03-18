@@ -12,6 +12,7 @@ import Conspiracy from './components/work/show/conspiracy';
 import Cradle from './components/work/show/cradle_to_grave'; 
 import Frankenstein from './components/work/show/frankenstein'; 
 import Illustration from './components/work/show/illustration'; 
+import Flames from './components/work/show/flames';
 import About from './components/about/about'; 
 import loading from './assets/gif/loading.gif'
 
@@ -40,6 +41,7 @@ function App() {
         <Route path="/frankenstein" component={Frankenstein}></Route>
         <Route path="/illustration" component={Illustration}></Route>
         <Route path="/about" component={About}></Route>
+        <Route path="/flames" component={Flames}></Route>
         <Work></Work>
       </Switch>
       <Footer></Footer>

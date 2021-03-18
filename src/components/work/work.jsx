@@ -63,6 +63,24 @@ export default function Work(props) {
                     </div>
                 </div>
             </div>
+            <div id="illistration" className="square">
+                <div className="square-content">
+                    <div className="table">
+                        <div className="table-cell">
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="illistration" className="square">
+                <div className="square-content">
+                    <div className="table">
+                        <div className="table-cell">
+                            <Image caption="FLAMES OF MY HOMELAND"></Image>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         <div className="small-square">
 
@@ -93,6 +111,9 @@ export default function Work(props) {
                 <div className='mobile-row'>
                     <Image caption="ABSALON VISUAL IDENTITY"></Image>
                     <Image caption="ILLUSTRATION"></Image>
+                </div>
+                <div className='mobile-row-center'>
+                    <Image caption="FLAMES OF MY HOMELAND"></Image>
                 </div>
 
             </div>

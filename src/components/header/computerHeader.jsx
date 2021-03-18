@@ -18,7 +18,7 @@ export default function ComputerHeader() {
                         <Link to='illustration'>ILLUSTRATION</Link>
                     </div>
                 </div>
-                <Link className='name' to="/about">ABOUT</Link> 
+                <Link className='about-computer-header' to="/about">ABOUT</Link> 
             </div> 
         </div >
     )
